@@ -3,7 +3,6 @@ import { ref } from "vue";
 import { storeToRefs } from "pinia";
 import { useGlobalStore } from "@/store/index";
 
-// access the `store` variable anywhere in the component ✨
 const store = useGlobalStore();
 const { getData } = storeToRefs(store);
 
